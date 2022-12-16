@@ -1,0 +1,18 @@
+#!/bin/bash
+
+echo "TESTING HARL WITH '0'"
+./Harl_2.0 0
+echo "TESTING HARL WITH 'DEBUG'"
+./Harl_2.0 DEBUG
+echo "TESTING HARL WITH 'INFO'"
+./Harl_2.0 INFO
+echo "TESTING HARL WITH 'WARNING'"
+./Harl_2.0 WARNING
+echo "TESTING HARL WITH 'ERROR'"
+./Harl_2.0 ERROR
+echo "TESTING HARL WITH 'BLA'"
+./Harl_2.0 BLA
+echo "TESTING HARL WITH 'Blu'"
+./Harl_2.0 Blu
+echo "TESTING HARL WITH 'INFO WARNING'"
+./Harl_2.0 INFO WARNING

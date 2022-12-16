@@ -1,0 +1,26 @@
+#!/bin/bash
+
+echo "TESTING HARL WITH '0'"
+./Harl_filter 0
+echo
+echo "TESTING HARL WITH 'DEBUG'"
+./Harl_filter DEBUG
+echo
+echo "TESTING HARL WITH 'INFO'"
+./Harl_filter INFO
+echo
+echo "TESTING HARL WITH 'WARNING'"
+./Harl_filter WARNING
+echo
+echo "TESTING HARL WITH 'ERROR'"
+./Harl_filter ERROR
+echo
+echo "TESTING HARL WITH 'BLA'"
+./Harl_filter BLA
+echo
+echo "TESTING HARL WITH 'Blu'"
+./Harl_filter Blu
+echo
+echo "TESTING HARL WITH 'INFO WARNING'"
+./Harl_filter INFO WARNING
+echo
